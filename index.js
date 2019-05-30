@@ -19,5 +19,3 @@ function addNewLiOnClick() {
      return addNewElementAsLi()
   })
 }
-
-function
