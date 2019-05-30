@@ -17,6 +17,6 @@ function addNewElementAsLi() {
 function addNewLiOnClick() {
   return $('form').submit(function (e) {
       addNewElementAsLi()
-     e.preventDefault()
+      e.preventDefault()
   })
 }
