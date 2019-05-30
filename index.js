@@ -7,5 +7,7 @@ function preventRefreshOnSubmit(){
 preventRefreshOnSubmit()
 
 $(document).ready(function () {
-
+  function retrieveEmployeeInformation() {
+    
+  }
 })
