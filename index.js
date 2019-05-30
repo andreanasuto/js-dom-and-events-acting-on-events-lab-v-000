@@ -9,3 +9,7 @@ preventRefreshOnSubmit()
 function retrieveEmployeeInformation() {
   return $('input[type="text"]').val()
 }
+
+function addNewElementAsLi() {
+  return $('.employee-list').append(`<li>${retrieveEmployeeInformation()}</li>`)
+}
