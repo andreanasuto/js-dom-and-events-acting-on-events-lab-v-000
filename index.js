@@ -8,6 +8,10 @@ preventRefreshOnSubmit()
 
 $(document).ready(function () {
   function retrieveEmployeeInformation() {
-    
+
   }
 })
+
+function retrieveEmployeeInformation() {
+
+}
