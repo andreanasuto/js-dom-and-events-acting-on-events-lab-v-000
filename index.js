@@ -5,3 +5,7 @@ function preventRefreshOnSubmit(){
 }
 
 preventRefreshOnSubmit()
+
+$(document).ready(function () {
+
+})
