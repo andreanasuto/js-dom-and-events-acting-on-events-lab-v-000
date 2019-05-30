@@ -13,3 +13,9 @@ function retrieveEmployeeInformation() {
 function addNewElementAsLi() {
   return $('.employee-list').append(`<li>${retrieveEmployeeInformation()}</li>`)
 }
+
+function addNewLiOnClick() {
+  return $('input[type="submit"]').on('click', function() {
+    addNewElementAsLi()
+  })
+}
