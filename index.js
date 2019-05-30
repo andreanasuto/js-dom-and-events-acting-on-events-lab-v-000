@@ -16,6 +16,10 @@ function addNewElementAsLi() {
 
 function addNewLiOnClick() {
   return $('input[type="submit"]').click(function (e) {
-      addNewElementAsLi()
+      addNewElementAsLi(), $('input[type="text"]').val() = ''
   })
+}
+
+function clearEmployeeListOnLinkClick () {
+  
 }
