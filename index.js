@@ -23,6 +23,6 @@ function addNewLiOnClick() {
 
 function clearEmployeeListOnLinkClick () {
   return $('a').click(function () {
-    $('.employee-list li')
+    $('.employee-list li').remove('')
   })
 }
