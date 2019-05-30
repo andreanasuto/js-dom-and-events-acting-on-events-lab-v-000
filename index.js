@@ -6,12 +6,6 @@ function preventRefreshOnSubmit(){
 
 preventRefreshOnSubmit()
 
-$(document).ready(function () {
-  function retrieveEmployeeInformation() {
-
-  }
-})
-
 function retrieveEmployeeInformation() {
-
+  return $('input[type="text"]')
 }
