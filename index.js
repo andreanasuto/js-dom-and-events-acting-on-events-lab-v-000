@@ -15,7 +15,7 @@ function addNewElementAsLi() {
 }
 
 function addNewLiOnClick() {
-  return $('form').click(function (e) {
+  return $('input[type="submit"]').click(function (e) {
       addNewElementAsLi()
   })
 }
