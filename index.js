@@ -21,5 +21,5 @@ function addNewLiOnClick() {
 }
 
 function clearEmployeeListOnLinkClick () {
-  
+
 }
